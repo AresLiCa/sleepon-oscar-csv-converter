@@ -14,7 +14,7 @@ The exporter will create a file for each day in the SleepOn export.
 
 ## Sleep Stage
 
-Sleep Stage/quality data is exported as Zeo .csv files, with a file for each day in the SleepOn export. 
+Sleep Stage/quality data is exported as Zeo `.csv` files, with a file for each day in the SleepOn export. 
 
 Detailed sleep stage info is exported by sleepon per minute, while Zeo .csv files expect every 30 seconds, so the exporter pads the files by exporting each value twice.
 
